@@ -47,6 +47,93 @@
   }
 }
 
+.vitas-anim{
+    animation: myAni 30s ease 0s 5 normal forwards;
+  }
+
+  @keyframes myAni {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 50%;
+    }
+  
+    10% {
+      transform: rotate(8deg);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: rotate(-10deg);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: rotate(10deg);
+    }
+  
+    80% {
+      transform: rotate(-8deg);
+    }
+  
+    90% {
+      transform: rotate(8deg);
+    }
+  }
+
+  .web-anim{
+    animation: myAn 15s ease 0s 1 normal forwards;
+  }
+
+  @keyframes myAn {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateX(-48px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(-26px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(-13px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(-6.5px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
 @media (min-width: 1200.1px) {
   .sidebar{
     position: fixed;
@@ -91,6 +178,93 @@
   .webseite {
     background-color: lightblue;
     border-radius: 8px;
+  }
+
+  .vitas-anim{
+    animation: myAni 30s ease 0s 5 normal forwards;
+  }
+
+  @keyframes myAni {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 50%;
+    }
+  
+    10% {
+      transform: rotate(8deg);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: rotate(-10deg);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: rotate(10deg);
+    }
+  
+    80% {
+      transform: rotate(-8deg);
+    }
+  
+    90% {
+      transform: rotate(8deg);
+    }
+  }
+
+  .web-anim{
+    animation: myAn 15s ease 0s 1 normal forwards;
+  }
+
+  @keyframes myAn {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateX(-48px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(-26px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(-13px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(-6.5px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
 
   .webseite a{
