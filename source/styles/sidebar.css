@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+  .sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+  
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  } 
+  
+  .sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+  }
+  
+  .sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+  }
+  
+  .sidebar-link div{
+    font-size: 10px;
+  }
+
+  .webseite {
+    background-color: lightblue;
+    border-radius: 8px;
+  }
+
+  .webseite a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200.1px) {
+  .sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+  
+    background-color: white;
+    width: 200px;
+    z-index: 200;
+    padding-top: 13px;
+  } 
+  
+  .sidebar-link{
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s,
+    opacity 0.3s;
+  }
+  
+  .sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+  }
+
+  .sidebar-link:active{
+    opacity: 0.3;
+  }
+  
+  .sidebar-link img{
+    height: 24px;
+    margin-right: 24px;
+  }
+  
+  .sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+  }
+
+  .webseite {
+    background-color: lightblue;
+    border-radius: 8px;
+  }
+
+  .webseite a{
+    display: flex;
+    align-items: center;
+  }
+}
