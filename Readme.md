@@ -19,12 +19,16 @@ Live Demo:
 https://vitas03.github.io/youtube-clone/
 
 Screenshots:
-Desktop view:
+Desktop view: 
+https://github.com/Vitas03/youtube-clone/blob/main/screenshots/desktop.png
+
 Mobile view:
+
+https://github.com/Vitas03/youtube-clone/blob/main/screenshots/mobile.png
 
 ---
 
-Projektbeschreibung auf Deutsch:
+YouTube Clone (Deutsch)
 
 Dies ist ein vereinfachter YouTube-Klon, den ich mit HTML und CSS erstellt habe.  
 Ich habe das Layout und das Design aus meiner Sicht verbessert, um es moderner und responsiver zu machen.
@@ -38,10 +42,15 @@ Verwendete Technologien:
 - HTML5
 - CSS3
 
-Live-Vorschau:  
+Live-Vorschau: 
+https://vitas03.github.io/youtube-clone/
 
 Screenshots:
 Desktop-Ansicht:
+https://github.com/Vitas03/youtube-clone/blob/main/screenshots/desktop.png
+
 Mobile-Ansicht:
+https://github.com/Vitas03/youtube-clone/blob/main/screenshots/mobile.png
+
 
 
